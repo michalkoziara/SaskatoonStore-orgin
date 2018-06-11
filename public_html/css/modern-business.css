@@ -23,19 +23,20 @@
 
 .loader {
     position: fixed;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
     z-index: 5;
     background: url(../img/loading.gif) center no-repeat #fff;
-    background-color: greenyellow;
+    background-color: #94dc40;
 }
 
 body {
-    background-color: greenyellow;
+    background-color: #94dc40;
     padding-top: 54px;
-    font-family: Georgia, serif;
+
+    font-family: "Montserrat", Georgia, serif;
 }
 
 @media (min-width: 992px) {
@@ -46,6 +47,10 @@ body {
 
 .breadcrumb{
     background-color: yellowgreen;
+}
+
+.breadcrumb-item a{
+    color: green;
 }
 
 .carousel-item {
@@ -81,8 +86,7 @@ iframe {
     height: 400px;    
 }
 
-abbr
-img {
+abbr img {
     height: 30px;
     width: 30px;
 }
@@ -95,11 +99,14 @@ abbr[title]
 
 nav {
     font-size: 4vh;
+
+    white-space: nowrap;
     font-family: amatic, Georgia, serif;
 }
 
 nav .navbar-brand {
     font-size: 4vh;
+    white-space: nowrap;
 }
 
 h1 {
@@ -111,3 +118,22 @@ h2 {
     font-size: 6vh;
     font-family: amatic, Georgia, serif;
 }
+
+@media (min-width: 992px) {
+    nav {
+        font-size: 2vw;
+    }
+
+    nav .navbar-brand {
+        font-size: 2vw;
+    }
+
+    h1 {
+        font-size: 4vw;
+    }
+
+    h2 {
+        font-size: 3vw;
+    }
+}
+

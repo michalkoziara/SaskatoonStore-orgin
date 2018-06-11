@@ -1,0 +1,21 @@
+/*
+    Created on : 2018-06-01, 09:48:37
+    Author     : Michał Koziara
+*/
+
+@media (min-width: 992px) {
+
+    .jumbotron {
+        left: 3%;
+        top: 3%;
+        width: 50%;
+        height: 60%;
+        position: absolute;
+        padding: 32px 32px 32px 32px;
+    }
+
+    .thumbnail{
+        position:relative;
+    }
+
+}
